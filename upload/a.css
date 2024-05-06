@@ -1,0 +1,64 @@
+.inp {
+    display: none;
+}
+  
+.progressBar {
+    width: 250px;
+    background: rgb(162, 25, 255);
+    padding: 15px 20px;
+    position: relative;
+}
+  
+.progress {
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.img {
+    height: 250px;
+    width: 300px;
+    display: none;
+}
+  
+  button {
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .filedata {
+    background: rgba(139, 16, 139, 0.459);
+    padding: 10px 15px;
+    display: none;
+    overflow: hidden;
+  }
+  
+  .imageUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loading {
+    display: none;
+  }/*# sourceMappingURL=index.css.map */
+
+.voltar {
+  align-self: baseline;
+  color: white;
+  background-color: black;
+}

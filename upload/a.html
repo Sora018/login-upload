@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Image Upload</title>
+    <link rel="stylesheet" href="./a.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+  </head>
+  <body>
+    <button onclick="voltar()" class="voltar">Voltar</button>
+    <div class="imageUpload">
+      <input type="file" class="inp" onchange="getImageData(event)" />
+      <button onclick="selectImage()" class="selectImage">Select Images</button>
+      <span class="filedata"></span>
+      <div class="progressBar">
+        <div class="progress"></div>
+      </div>
+      <button onclick="uploadImage()" class="upload">Upload</button>
+      <span class="loading">Loading...</span>
+      <img class="img" />
+    </div>
+
+
+
+    <script src="./a.js"></script>
+  </body>
+</html>
