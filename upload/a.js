@@ -1,22 +1,10 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyAPJiUQ3-rxzfhHyEzejKmVFuDz7q8mANM",
-    authDomain: "teste-geral1.firebaseapp.com",
-    projectId: "teste-geral1",
-    storageBucket: "teste-geral1.appspot.com",
-    messagingSenderId: "422986308403",
-    appId: "1:422986308403:web:8649d52226a1202312bc46"
-};
+const storage = firebase.storage();
 
-firebase.initializeApp(firebaseConfig);
 
 function voltar() {
     window.location.href = "../pages/home/home.html";
 }
 
-
-
-
-const storage = firebase.storage();
 
 const inp = document.querySelector(".inp");
 const progressbar = document.querySelector(".progress");
